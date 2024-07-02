@@ -2,7 +2,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <vector>
-#include "waveforms.cpp"
+#include "../waveforms_files/waveforms.cpp"
 
 extern std::vector<double> InputSignal_f32_1kHz_15kHz;
 double cal_signal_mean(std::vector<double>);
